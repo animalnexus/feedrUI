@@ -1,0 +1,437 @@
+{
+  "input": {
+    "standalone-adv-animal_id": "all",
+    "standalone-adv-summary": "sum",
+    "standalone-adv-type": "instant",
+    "standalone-details-help_instructions": 0,
+    "standalone-map-map_bounds": {
+      "north": 50.6696025382849,
+      "east": -120.360642671585,
+      "south": 50.6675625409707,
+      "west": -120.364081263542
+    },
+    "standalone-map-map_center": {
+      "lng": -120.3623639,
+      "lat": 50.6685833218157
+    },
+    "standalone-map-map_groups": [
+      "Satellite",
+      "Loggers",
+      "Sunrise/Sunset",
+      "Presence",
+      "Movements"
+    ],
+    "standalone-map-map_zoom": 18,
+    "standalone-map-sunrise": "FALSE",
+    "standalone-setup_time-instant": "2016-01-29T08:34:25Z",
+    "standalone-setup-anim_speed": 50,
+    "standalone-setup-interval": "1440",
+    "standalone-setup-time_range": [
+      "2016-01-28T08:00:00Z",
+      "2016-01-30T08:00:00Z"
+    ]
+  },
+  "output": {
+    "standalone-adv-UI_animal_id": {
+      "html": "<div class=\"form-group shiny-input-container\">\n  <label class=\"control-label\" id=\"standalone-adv-animal_id-label\" for=\"standalone-adv-animal_id\">Select Individual<\/label>\n  <div>\n    <select id=\"standalone-adv-animal_id\"><option value=\"all\" selected>All<\/option>\n<option value=\"041868D396\">041868D396 (1 mv; 4 fd)<\/option>\n<option value=\"041868D861\">041868D861 (2 mv; 3 fd)<\/option>\n<option value=\"062000043E\">062000043E (0 mv; 1 fd)<\/option>\n<option value=\"06200004F8\">06200004F8 (6 mv; 11 fd)<\/option>\n<option value=\"0620000514\">0620000514 (6 mv; 9 fd)<\/option><\/select>\n    <script type=\"application/json\" data-for=\"standalone-adv-animal_id\" data-nonempty=\"\">{\"plugins\":[\"selectize-plugin-a11y\"]}<\/script>\n  <\/div>\n<\/div>",
+      "deps": [
+        {
+          "name": "selectize",
+          "version": "0.12.4",
+          "src": {
+            "href": "shared/selectize"
+          },
+          "meta": null,
+          "script": [
+            "js/selectize.min.js",
+            "accessibility/js/selectize-plugin-a11y.min.js"
+          ],
+          "stylesheet": "css/selectize.bootstrap3.css",
+          "head": null,
+          "attachment": null,
+          "package": null,
+          "all_files": true
+        }
+      ]
+    },
+    "standalone-map-map": {
+      "x": {
+        "options": {
+          "maxZoom": 18,
+          "crs": {
+            "crsClass": "L.CRS.EPSG3857",
+            "code": null,
+            "proj4def": null,
+            "projectedBounds": null,
+            "options": {
+
+            }
+          }
+        },
+        "calls": [
+          {
+            "method": "addTiles",
+            "args": [
+              "//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+              null,
+              "Open Street Map",
+              {
+                "minZoom": 0,
+                "maxZoom": 18,
+                "tileSize": 256,
+                "subdomains": "abc",
+                "errorTileUrl": "",
+                "tms": false,
+                "noWrap": false,
+                "zoomOffset": 0,
+                "zoomReverse": false,
+                "opacity": 1,
+                "zIndex": 1,
+                "detectRetina": false,
+                "attribution": "&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"
+              }
+            ]
+          },
+          {
+            "method": "addProviderTiles",
+            "args": [
+              "Stamen.Toner",
+              null,
+              "Black and White",
+              {
+                "errorTileUrl": "",
+                "noWrap": false,
+                "detectRetina": false
+              }
+            ]
+          },
+          {
+            "method": "addProviderTiles",
+            "args": [
+              "Esri.WorldImagery",
+              null,
+              "Satellite",
+              {
+                "errorTileUrl": "",
+                "noWrap": false,
+                "detectRetina": false
+              }
+            ]
+          },
+          {
+            "method": "addProviderTiles",
+            "args": [
+              "Esri.WorldTopoMap",
+              null,
+              "Terrain",
+              {
+                "errorTileUrl": "",
+                "noWrap": false,
+                "detectRetina": false
+              }
+            ]
+          },
+          {
+            "method": "addCircleMarkers",
+            "args": [
+              [
+                50.66895556,
+                50.66778333,
+                50.6693833,
+                50.66909444
+              ],
+              [
+                -120.3624278,
+                -120.3612389,
+                -120.3634889,
+                -120.3631833
+              ],
+              5,
+              null,
+              "Loggers",
+              {
+                "interactive": true,
+                "className": "",
+                "stroke": true,
+                "color": "white",
+                "weight": 2,
+                "opacity": 1,
+                "fill": true,
+                "fillColor": "black",
+                "fillOpacity": 1
+              },
+              null,
+              null,
+              [
+                "Logger: 2100",
+                "Logger: 2200",
+                "Logger: 2400",
+                "Logger: 2700"
+              ],
+              null,
+              null,
+              {
+                "interactive": false,
+                "permanent": false,
+                "direction": "auto",
+                "opacity": 1,
+                "offset": [
+                  0,
+                  0
+                ],
+                "textsize": "10px",
+                "textOnly": false,
+                "className": "",
+                "sticky": true
+              },
+              null
+            ]
+          },
+          {
+            "method": "addLayersControl",
+            "args": [
+              [
+                "Satellite",
+                "Terrain",
+                "Open Street Map",
+                "Black and White"
+              ],
+              "Loggers",
+              {
+                "collapsed": true,
+                "autoZIndex": true,
+                "position": "topright"
+              }
+            ]
+          },
+          {
+            "method": "addScaleBar",
+            "args": [
+              {
+                "maxWidth": 100,
+                "metric": true,
+                "imperial": true,
+                "updateWhenIdle": true,
+                "position": "bottomright"
+              }
+            ]
+          },
+          {
+            "method": "addLayersControl",
+            "args": [
+              [
+                "Satellite",
+                "Terrain",
+                "Open Street Map",
+                "Black and White"
+              ],
+              [
+                "Loggers",
+                "Sunrise/Sunset",
+                "Presence",
+                "Movements"
+              ],
+              {
+                "collapsed": true,
+                "autoZIndex": true,
+                "position": "topright"
+              }
+            ]
+          }
+        ],
+        "limits": {
+          "lat": [
+            50.66778333,
+            50.6693833
+          ],
+          "lng": [
+            -120.3634889,
+            -120.3612389
+          ]
+        }
+      },
+      "evals": [
+
+      ],
+      "jsHooks": [
+
+      ],
+      "deps": [
+        {
+          "name": "leaflet-providers",
+          "version": "1.9.0",
+          "src": {
+            "href": "leaflet-providers-1.9.0"
+          },
+          "meta": null,
+          "script": "leaflet-providers_1.9.0.js",
+          "stylesheet": null,
+          "head": null,
+          "attachment": null,
+          "package": null,
+          "all_files": false
+        },
+        {
+          "name": "leaflet-providers-plugin",
+          "version": "2.0.4.1",
+          "src": {
+            "href": "leaflet-providers-plugin-2.0.4.1"
+          },
+          "meta": null,
+          "script": "leaflet-providers-plugin.js",
+          "stylesheet": null,
+          "head": null,
+          "attachment": null,
+          "package": null,
+          "all_files": true
+        }
+      ]
+    },
+    "standalone-setup_time-plot_time": {
+      "src": "[image data sha1: 476ce122013be4c86066488d2d23ff3f502fff8c]",
+      "width": 625,
+      "height": 200,
+      "alt": "Plot object",
+      "coordmap": {
+        "panels": [
+          {
+            "panel": 1,
+            "row": 1,
+            "col": 1,
+            "panel_vars": {
+
+            },
+            "log": {
+              "x": null,
+              "y": null
+            },
+            "domain": {
+              "left": 1453980322.65,
+              "right": 1454229854.35,
+              "bottom": 0,
+              "top": 20
+            },
+            "mapping": {
+              "x": "block",
+              "y": "n",
+              "fill": "type"
+            },
+            "range": {
+              "left": 34.1506849315069,
+              "right": 619.520547945205,
+              "bottom": 118.147506849315,
+              "top": 5.47945205479452
+            }
+          }
+        ],
+        "dims": {
+          "width": 625,
+          "height": 200
+        }
+      }
+    },
+    "standalone-setup_time-UI_time": {
+      "html": "<div class=\"form-group shiny-input-container\" style=\"width:520px;\">\n  <label class=\"control-label\" id=\"standalone-setup_time-instant-label\" for=\"standalone-setup_time-instant\">Instant<\/label>\n  <input class=\"js-range-slider\" id=\"standalone-setup_time-instant\" data-skin=\"shiny\" data-min=\"1454056465000\" data-max=\"1454153712000\" data-from=\"1454056465000\" data-step=\"86400000\" data-grid=\"true\" data-grid-num=\"1.12554398148148\" data-grid-snap=\"false\" data-prettify-separator=\",\" data-prettify-enabled=\"true\" data-keyboard=\"true\" data-data-type=\"datetime\" data-time-format=\"%F %T\" data-timezone=\"-0800\"/>\n  <div class=\"slider-animate-container\">\n    <a href=\"#\" class=\"slider-animate-button\" data-target-id=\"standalone-setup_time-instant\" data-interval=\"250.1\" data-loop=\"FALSE\">\n      <span class=\"play\">\n        <i aria-label=\"play icon\" class=\"glyphicon glyphicon-play\" role=\"presentation\"><\/i>\n      <\/span>\n      <span class=\"pause\">\n        <i aria-label=\"pause icon\" class=\"glyphicon glyphicon-pause\" role=\"presentation\"><\/i>\n      <\/span>\n    <\/a>\n  <\/div>\n<\/div>",
+      "deps": [
+        {
+          "name": "ionrangeslider-javascript",
+          "version": "2.3.1",
+          "src": {
+            "href": "shared/ionrangeslider"
+          },
+          "meta": null,
+          "script": "js/ion.rangeSlider.min.js",
+          "stylesheet": null,
+          "head": null,
+          "attachment": null,
+          "package": null,
+          "all_files": true
+        },
+        {
+          "name": "strftime",
+          "version": "0.9.2",
+          "src": {
+            "href": "shared/strftime"
+          },
+          "meta": null,
+          "script": "strftime-min.js",
+          "stylesheet": null,
+          "head": null,
+          "attachment": null,
+          "package": null,
+          "all_files": true
+        },
+        {
+          "name": "ionrangeslider-css",
+          "version": "2.3.1",
+          "src": {
+            "href": "shared/ionrangeslider"
+          },
+          "meta": null,
+          "script": null,
+          "stylesheet": "css/ion.rangeSlider.css",
+          "head": null,
+          "attachment": null,
+          "package": null,
+          "all_files": true
+        }
+      ]
+    },
+    "standalone-setup-UI_interval": {
+      "html": "<div id=\"standalone-setup-interval\" class=\"form-group shiny-input-radiogroup shiny-input-container shiny-input-container-inline\" role=\"radiogroup\" aria-labelledby=\"standalone-setup-interval-label\">\n  <label class=\"control-label\" id=\"standalone-setup-interval-label\" for=\"standalone-setup-interval\">Resolution<\/label>\n  <div class=\"shiny-options-group\">\n    <label class=\"radio-inline\">\n      <input type=\"radio\" name=\"standalone-setup-interval\" value=\"5\"/>\n      <span>5 min<\/span>\n    <\/label>\n    <label class=\"radio-inline\">\n      <input type=\"radio\" name=\"standalone-setup-interval\" value=\"15\"/>\n      <span>15 min<\/span>\n    <\/label>\n    <label class=\"radio-inline\">\n      <input type=\"radio\" name=\"standalone-setup-interval\" value=\"30\"/>\n      <span>30 min<\/span>\n    <\/label>\n    <label class=\"radio-inline\">\n      <input type=\"radio\" name=\"standalone-setup-interval\" value=\"60\"/>\n      <span>1 hr<\/span>\n    <\/label>\n    <label class=\"radio-inline\">\n      <input type=\"radio\" name=\"standalone-setup-interval\" value=\"180\"/>\n      <span>3 hr<\/span>\n    <\/label>\n    <label class=\"radio-inline\">\n      <input type=\"radio\" name=\"standalone-setup-interval\" value=\"360\"/>\n      <span>6 hr<\/span>\n    <\/label>\n    <label class=\"radio-inline\">\n      <input type=\"radio\" name=\"standalone-setup-interval\" value=\"720\"/>\n      <span>12 hr<\/span>\n    <\/label>\n    <label class=\"radio-inline\">\n      <input type=\"radio\" name=\"standalone-setup-interval\" value=\"1440\" checked=\"checked\"/>\n      <span>24 hr<\/span>\n    <\/label>\n  <\/div>\n<\/div>",
+      "deps": [
+
+      ]
+    },
+    "standalone-setup-UI_time_range": {
+      "html": "<div class=\"form-group shiny-input-container\" style=\"width:100%;\">\n  <label class=\"control-label\" id=\"standalone-setup-time_range-label\" for=\"standalone-setup-time_range\">Time Range<\/label>\n  <input class=\"js-range-slider\" id=\"standalone-setup-time_range\" data-skin=\"shiny\" data-type=\"double\" data-min=\"1453968000000\" data-max=\"1454140800000\" data-from=\"1453968000000\" data-to=\"1454140800000\" data-step=\"3600000\" data-grid=\"true\" data-grid-num=\"9.6\" data-grid-snap=\"false\" data-prettify-separator=\",\" data-prettify-enabled=\"true\" data-keyboard=\"true\" data-drag-interval=\"true\" data-data-type=\"datetime\" data-time-format=\"%F %T\" data-timezone=\"-0800\"/>\n<\/div>",
+      "deps": [
+        {
+          "name": "ionrangeslider-javascript",
+          "version": "2.3.1",
+          "src": {
+            "href": "shared/ionrangeslider"
+          },
+          "meta": null,
+          "script": "js/ion.rangeSlider.min.js",
+          "stylesheet": null,
+          "head": null,
+          "attachment": null,
+          "package": null,
+          "all_files": true
+        },
+        {
+          "name": "strftime",
+          "version": "0.9.2",
+          "src": {
+            "href": "shared/strftime"
+          },
+          "meta": null,
+          "script": "strftime-min.js",
+          "stylesheet": null,
+          "head": null,
+          "attachment": null,
+          "package": null,
+          "all_files": true
+        },
+        {
+          "name": "ionrangeslider-css",
+          "version": "2.3.1",
+          "src": {
+            "href": "shared/ionrangeslider"
+          },
+          "meta": null,
+          "script": null,
+          "stylesheet": "css/ion.rangeSlider.css",
+          "head": null,
+          "attachment": null,
+          "package": null,
+          "all_files": true
+        }
+      ]
+    }
+  },
+  "export": {
+
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "input": {
+    "standalone-details": "1",
+    "standalone-dst": "FALSE",
+    "standalone-file1": {
+      "name": [
+        "finches_colnames.csv"
+      ],
+      "size": [
+        34169
+      ],
+      "type": [
+        "text/csv"
+      ],
+      "datapath": [
+        "0.csv"
+      ]
+    },
+    "standalone-format": "all",
+    "standalone-get_data": 0,
+    "standalone-help_file": 0,
+    "standalone-help_options": 0,
+    "standalone-id_pattern": "NA",
+    "standalone-preview_cell_clicked": {
+
+    },
+    "standalone-preview_cells_selected": [
+
+    ],
+    "standalone-preview_columns_selected": null,
+    "standalone-preview_rows_all": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "standalone-preview_rows_current": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "standalone-preview_rows_selected": null,
+    "standalone-preview_search": "",
+    "standalone-preview_state": {
+      "time": 1637621871205,
+      "start": 0,
+      "length": 10,
+      "order": [
+
+      ],
+      "search": {
+        "search": "",
+        "smart": true,
+        "regex": false,
+        "caseInsensitive": true
+      },
+      "columns": [
+        {
+          "visible": true,
+          "search": {
+            "search": "",
+            "smart": true,
+            "regex": false,
+            "caseInsensitive": true
+          }
+        },
+        {
+          "visible": true,
+          "search": {
+            "search": "",
+            "smart": true,
+            "regex": false,
+            "caseInsensitive": true
+          }
+        },
+        {
+          "visible": true,
+          "search": {
+            "search": "",
+            "smart": true,
+            "regex": false,
+            "caseInsensitive": true
+          }
+        },
+        {
+          "visible": true,
+          "search": {
+            "search": "",
+            "smart": true,
+            "regex": false,
+            "caseInsensitive": true
+          }
+        },
+        {
+          "visible": true,
+          "search": {
+            "search": "",
+            "smart": true,
+            "regex": false,
+            "caseInsensitive": true
+          }
+        },
+        {
+          "visible": true,
+          "search": {
+            "search": "",
+            "smart": true,
+            "regex": false,
+            "caseInsensitive": true
+          }
+        },
+        {
+          "visible": true,
+          "search": {
+            "search": "",
+            "smart": true,
+            "regex": false,
+            "caseInsensitive": true
+          }
+        },
+        {
+          "visible": true,
+          "search": {
+            "search": "",
+            "smart": true,
+            "regex": false,
+            "caseInsensitive": true
+          }
+        }
+      ]
+    },
+    "standalone-sep": ",",
+    "standalone-skip": 0,
+    "standalone-time": "ymd HMS",
+    "standalone-tz": "America/Winnipeg"
+  },
+  "output": {
+    "standalone-preview": [
+      "Cannot proceed: Required columns aren't present (require 'animal_id', 'logger_id', and 'time'). Try a different format or modify your column names.",
+      "NULL",
+      "c(\"shiny.silent.error\", \"validation\")"
+    ],
+    "standalone-preview_file": "\"id\",\"Time\",\"logger_id\",\"Species\",\"sex\",\"Longitude\",\"lat\"\r\n\"0620000514\",2016-01-28 12:34:25,\"2200\",\"House Finch\",\"F\",-120.3612389,50.66778333\r\n\"0620000514\",2016-01-28 12:34:28,\"2200\",\"House Finch\",\"F\",-120.3612389,50.66778333\r\n\"041868D861\",2016-01-28 12:35:41,\"2200\",\"House Finch\",\"M\",-120.3612389,50.66778333\r\n\"06200004F8\",2016-01-28 12:35:52,\"2200\",\"House Finch\",\"F\",-120.3612389,50.66778333\r\n\"06200004F8\",2016-01-28 12:35:59,\"2200\",\"House Finch\",\"F\",-120.3612389,50.66778333\r\n\"06200004F8\",2016-01-28 12:36:02,\"2200\",\"House Finch\",\"F\",-120.3612389,50.66778333\r\n\"06200004F8\",2016-01-28 12:36:06,\"2200\",\"House Finch\",\"F\",-120.3612389,50.66778333\r\n\"06200004F8\",2016-01-28 12:36:09,\"2200\",\"House Finch\",\"F\",-120.3612389,50.66778333\r\n\"06200004F8\",2016-01-28 12:36:12,\"2200\",\"House Finch\",\"F\",-120.3612389,50.66778333",
+    "standalone-UI_details": {
+      "message": "",
+      "call": "NULL",
+      "type": [
+        "shiny.silent.error",
+        "validation"
+      ]
+    },
+    "standalone-UI_id_pattern": {
+      "message": "",
+      "call": "NULL",
+      "type": [
+        "shiny.silent.error",
+        "validation"
+      ]
+    },
+    "standalone-UI_sep": {
+      "html": "<div id=\"standalone-sep\" class=\"form-group shiny-input-radiogroup shiny-input-container\" role=\"radiogroup\" aria-labelledby=\"standalone-sep-label\">\n  <label class=\"control-label\" id=\"standalone-sep-label\" for=\"standalone-sep\">Separator<\/label>\n  <div class=\"shiny-options-group\">\n    <div class=\"radio\">\n      <label>\n        <input type=\"radio\" name=\"standalone-sep\" value=\",\" checked=\"checked\"/>\n        <span>Comma<\/span>\n      <\/label>\n    <\/div>\n    <div class=\"radio\">\n      <label>\n        <input type=\"radio\" name=\"standalone-sep\" value=\";\"/>\n        <span>Semicolon<\/span>\n      <\/label>\n    <\/div>\n    <div class=\"radio\">\n      <label>\n        <input type=\"radio\" name=\"standalone-sep\" value=\"\t\"/>\n        <span>Tab<\/span>\n      <\/label>\n    <\/div>\n  <\/div>\n<\/div>",
+      "deps": [
+
+      ]
+    },
+    "standalone-UI_skip": {
+      "html": "<div class=\"form-group shiny-input-container\" style=\"width:100px;\">\n  <label class=\"control-label\" id=\"standalone-skip-label\" for=\"standalone-skip\">Skip<\/label>\n  <input id=\"standalone-skip\" type=\"number\" class=\"form-control\" value=\"0\" min=\"0\" max=\"39\"/>\n<\/div>",
+      "deps": [
+
+      ]
+    },
+    "standalone-UI_time": {
+      "html": "<div class=\"form-group shiny-input-container\" style=\"width:150px;\">\n  <label class=\"control-label\" id=\"standalone-time-label\" for=\"standalone-time\">Date/Time format<\/label>\n  <div>\n    <select id=\"standalone-time\"><option value=\"ymd HMS\" selected>Year Month Day<\/option>\n<option value=\"mdy HMS\">Month Day Year<\/option>\n<option value=\"dmy HMS\">Day Month Year<\/option><\/select>\n    <script type=\"application/json\" data-for=\"standalone-time\" data-nonempty=\"\">{\"plugins\":[\"selectize-plugin-a11y\"]}<\/script>\n  <\/div>\n<\/div>",
+      "deps": [
+        {
+          "name": "selectize",
+          "version": "0.12.4",
+          "src": {
+            "href": "shared/selectize"
+          },
+          "meta": null,
+          "script": [
+            "js/selectize.min.js",
+            "accessibility/js/selectize-plugin-a11y.min.js"
+          ],
+          "stylesheet": "css/selectize.bootstrap3.css",
+          "head": null,
+          "attachment": null,
+          "package": null,
+          "all_files": true
+        }
+      ]
+    },
+    "standalone-validations": {
+      "message": "",
+      "call": "NULL",
+      "type": [
+        "shiny.silent.error",
+        "validation"
+      ]
+    }
+  },
+  "export": {
+
+  }
+}

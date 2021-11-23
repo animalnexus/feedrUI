@@ -1,0 +1,113 @@
+{
+  "input": {
+    "standalone-data_get": 0,
+    "standalone-data_reset": 0,
+    "standalone-data_site_name": "",
+    "standalone-help_adv": 0,
+    "standalone-help_data": 0,
+    "standalone-help_map": 0,
+    "standalone-help_selected": 0,
+    "standalone-map_update": 0,
+    "standalone-plot_data_brush": null,
+    "standalone-showadv": 0
+  },
+  "output": {
+    "standalone-data_access": {
+      "message": "",
+      "call": "NULL",
+      "type": [
+        "shiny.silent.error",
+        "validation"
+      ]
+    },
+    "standalone-data_selection": {
+      "message": "",
+      "call": "NULL",
+      "type": [
+        "shiny.silent.error",
+        "validation"
+      ]
+    },
+    "standalone-map_data": {
+      "message": "No Database access\n\n- To work with local data, use the 'Import' UI (ui_import()).\n- To work with the Database check out animalnexus.ca",
+      "call": "NULL",
+      "type": [
+        "shiny.silent.error",
+        "validation"
+      ]
+    },
+    "standalone-plot_data_ggplot": {
+      "message": "",
+      "call": "NULL",
+      "type": [
+        "shiny.silent.error",
+        "validation"
+      ]
+    },
+    "standalone-text_time": {
+      "message": "",
+      "call": "NULL",
+      "type": [
+        "shiny.silent.error",
+        "validation"
+      ]
+    },
+    "standalone-UI_data_animal_id": {
+      "message": "",
+      "call": "NULL",
+      "type": [
+        "shiny.silent.error",
+        "validation"
+      ]
+    },
+    "standalone-UI_data_date": {
+      "message": "",
+      "call": "NULL",
+      "type": [
+        "shiny.silent.error",
+        "validation"
+      ]
+    },
+    "standalone-UI_data_logger_id": {
+      "message": "",
+      "call": "NULL",
+      "type": [
+        "shiny.silent.error",
+        "validation"
+      ]
+    },
+    "standalone-UI_data_site_name": {
+      "html": "<div class=\"form-group shiny-input-container\">\n  <label class=\"control-label\" id=\"standalone-data_site_name-label\" for=\"standalone-data_site_name\">Sites:<\/label>\n  <div>\n    <select id=\"standalone-data_site_name\"><option value=\"\" selected>Choose site<\/option>\n<option value=\"Kamloops, BC\">Kamloops, BC (130769)<\/option><\/select>\n    <script type=\"application/json\" data-for=\"standalone-data_site_name\">{\"plugins\":[\"selectize-plugin-a11y\"]}<\/script>\n  <\/div>\n<\/div>",
+      "deps": [
+        {
+          "name": "selectize",
+          "version": "0.12.4",
+          "src": {
+            "href": "shared/selectize"
+          },
+          "meta": null,
+          "script": [
+            "js/selectize.min.js",
+            "accessibility/js/selectize-plugin-a11y.min.js"
+          ],
+          "stylesheet": "css/selectize.bootstrap3.css",
+          "head": null,
+          "attachment": null,
+          "package": null,
+          "all_files": true
+        }
+      ]
+    },
+    "standalone-UI_data_species": {
+      "message": "",
+      "call": "NULL",
+      "type": [
+        "shiny.silent.error",
+        "validation"
+      ]
+    }
+  },
+  "export": {
+
+  }
+}

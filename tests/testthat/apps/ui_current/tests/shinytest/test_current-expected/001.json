@@ -1,0 +1,387 @@
+{
+  "input": {
+    "standalone-current_update": 1,
+    "standalone-help_update": 0,
+    "standalone-map_current_bounds": {
+      "north": 50.6736720681124,
+      "east": -120.353851318359,
+      "south": 50.6668723218107,
+      "west": -120.374493598938
+    },
+    "standalone-map_current_center": {
+      "lng": -120.3641805,
+      "lat": 50.6702677307346
+    },
+    "standalone-map_current_groups": [
+      "Satellite",
+      "Loggers",
+      "Activity"
+    ],
+    "standalone-map_current_zoom": 16
+  },
+  "output": {
+    "standalone-current_time": "Most recent update: 2000-01-01 Pacific <br>Most recent activity: 2017-04-13 16:06:39 Pacific <br>Time window: 117.78 hour(s) <br>",
+    "standalone-map_current": {
+      "x": {
+        "options": {
+          "maxZoom": 18,
+          "crs": {
+            "crsClass": "L.CRS.EPSG3857",
+            "code": null,
+            "proj4def": null,
+            "projectedBounds": null,
+            "options": {
+
+            }
+          }
+        },
+        "calls": [
+          {
+            "method": "addTiles",
+            "args": [
+              "//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+              null,
+              "Open Street Map",
+              {
+                "minZoom": 0,
+                "maxZoom": 18,
+                "tileSize": 256,
+                "subdomains": "abc",
+                "errorTileUrl": "",
+                "tms": false,
+                "noWrap": false,
+                "zoomOffset": 0,
+                "zoomReverse": false,
+                "opacity": 1,
+                "zIndex": 1,
+                "detectRetina": false,
+                "attribution": "&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"
+              }
+            ]
+          },
+          {
+            "method": "addProviderTiles",
+            "args": [
+              "Stamen.Toner",
+              null,
+              "Black and White",
+              {
+                "errorTileUrl": "",
+                "noWrap": false,
+                "detectRetina": false
+              }
+            ]
+          },
+          {
+            "method": "addProviderTiles",
+            "args": [
+              "Esri.WorldImagery",
+              null,
+              "Satellite",
+              {
+                "errorTileUrl": "",
+                "noWrap": false,
+                "detectRetina": false
+              }
+            ]
+          },
+          {
+            "method": "addProviderTiles",
+            "args": [
+              "Esri.WorldTopoMap",
+              null,
+              "Terrain",
+              {
+                "errorTileUrl": "",
+                "noWrap": false,
+                "detectRetina": false
+              }
+            ]
+          },
+          {
+            "method": "addCircleMarkers",
+            "args": [
+              [
+                50.672752,
+                50.670208,
+                50.669006,
+                50.66891389,
+                50.67057222,
+                50.66869722,
+                50.66967222,
+                50.66895556,
+                50.66778333,
+                50.66909444,
+                50.6693833,
+                50.66967222,
+                50.67057222
+              ],
+              [
+                -120.367277,
+                -120.361084,
+                -120.362421,
+                -120.3611556,
+                -120.3658417,
+                -120.3627694,
+                -120.3621694,
+                -120.3624278,
+                -120.3612389,
+                -120.3631833,
+                -120.3634889,
+                -120.3621694,
+                -120.3658417
+              ],
+              5,
+              null,
+              "Loggers",
+              {
+                "interactive": true,
+                "className": "",
+                "stroke": true,
+                "color": "white",
+                "weight": 2,
+                "opacity": 1,
+                "fill": true,
+                "fillColor": "black",
+                "fillOpacity": 1
+              },
+              null,
+              null,
+              [
+                "Logger: 1000",
+                "Logger: 2701",
+                "Logger: 1001",
+                "Logger: Logger - Sc. East",
+                "Logger: Logger - Gathering Pl.",
+                "Logger: Logger - Lot S",
+                "Logger: Logger - Sc. Front",
+                "Logger: 2100",
+                "Logger: 2200",
+                "Logger: 2700",
+                "Logger: 2400",
+                "Logger: 2300",
+                "Logger: 1500"
+              ],
+              null,
+              null,
+              {
+                "interactive": false,
+                "permanent": false,
+                "direction": "auto",
+                "opacity": 1,
+                "offset": [
+                  0,
+                  0
+                ],
+                "textsize": "10px",
+                "textOnly": false,
+                "className": "",
+                "sticky": true
+              },
+              null
+            ]
+          },
+          {
+            "method": "addLayersControl",
+            "args": [
+              [
+                "Satellite",
+                "Terrain",
+                "Open Street Map",
+                "Black and White"
+              ],
+              "Loggers",
+              {
+                "collapsed": true,
+                "autoZIndex": true,
+                "position": "topright"
+              }
+            ]
+          },
+          {
+            "method": "addScaleBar",
+            "args": [
+              {
+                "maxWidth": 100,
+                "metric": true,
+                "imperial": true,
+                "updateWhenIdle": true,
+                "position": "bottomright"
+              }
+            ]
+          },
+          {
+            "method": "addAwesomeMarkers",
+            "args": [
+              [
+                50.6694731941543,
+                50.6694110787435,
+                50.6693105740718,
+                50.6693105740718,
+                50.6694110787435
+              ],
+              [
+                -120.3634889,
+                -120.363354006988,
+                -120.363405531534,
+                -120.363572268466,
+                -120.363623793012
+              ],
+              {
+                "icon": "star",
+                "markerColor": [
+                  "red",
+                  "green",
+                  "red",
+                  "red",
+                  "red"
+                ],
+                "iconColor": "white",
+                "spin": false,
+                "squareMarker": false,
+                "iconRotate": 0,
+                "prefix": "glyphicon"
+              },
+              null,
+              "Activity",
+              {
+                "interactive": true,
+                "draggable": false,
+                "keyboard": true,
+                "title": "",
+                "alt": "",
+                "zIndexOffset": 0,
+                "opacity": 1,
+                "riseOnHover": false,
+                "riseOffset": 250
+              },
+              [
+                "<div class = \"current\"><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/House_Finch-27527-2.jpg/320px-House_Finch-27527-2.jpg' style = 'max-height:100px'>\n<div class = \"wiki-watermark\">Wiki: <a href = \"https://commons.wikimedia.org/wiki/File%3AHouse_Finch-27527-2.jpg\" target=\"blank\">Ken Thomas PD<\/a><\/div><strong>Species:<\/strong> House Finch<br><strong>Animal ID:<\/strong> 011017336A<br><strong>No. visits:<\/strong> 1<br><strong>Total time:<\/strong> 0.12min <br><strong>Most recent visit:<\/strong> 2017-04-10 17:45:11<br><\/div>",
+                "<div class = \"current\"><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Poecile_gambeli%2C_Walden%2C_Colorado_1.jpg/320px-Poecile_gambeli%2C_Walden%2C_Colorado_1.jpg' style = 'max-height:100px'>\n<div class = \"wiki-watermark\">Wiki: <a href = \"https://commons.wikimedia.org/wiki/File%3APoecile_gambeli%2C_Walden%2C_Colorado_1.jpg\" target=\"blank\">Ron Knight CC<\/a><\/div><strong>Species:<\/strong> Mountain Chickadee<br><strong>Animal ID:<\/strong> 062000034E<br><strong>No. visits:<\/strong> 2<br><strong>Total time:<\/strong> 0.03min <br><strong>Most recent visit:<\/strong> 2017-04-11 06:25:48<br><\/div>",
+                "<div class = \"current\"><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/House_Finch-27527-2.jpg/320px-House_Finch-27527-2.jpg' style = 'max-height:100px'>\n<div class = \"wiki-watermark\">Wiki: <a href = \"https://commons.wikimedia.org/wiki/File%3AHouse_Finch-27527-2.jpg\" target=\"blank\">Ken Thomas PD<\/a><\/div><strong>Species:<\/strong> House Finch<br><strong>Animal ID:<\/strong> 062000035D<br><strong>No. visits:<\/strong> 3<br><strong>Total time:<\/strong> 0.25min <br><strong>Most recent visit:<\/strong> 2017-04-13 10:32:09<br><\/div>",
+                "<div class = \"current\"><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/House_Finch-27527-2.jpg/320px-House_Finch-27527-2.jpg' style = 'max-height:100px'>\n<div class = \"wiki-watermark\">Wiki: <a href = \"https://commons.wikimedia.org/wiki/File%3AHouse_Finch-27527-2.jpg\" target=\"blank\">Ken Thomas PD<\/a><\/div><strong>Species:<\/strong> House Finch<br><strong>Animal ID:<\/strong> 06200003BB<br><strong>No. visits:<\/strong> 6<br><strong>Total time:<\/strong> 2.2min <br><strong>Most recent visit:<\/strong> 2017-04-13 16:06:39<br><\/div>",
+                "<div class = \"current\"><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/House_Finch-27527-2.jpg/320px-House_Finch-27527-2.jpg' style = 'max-height:100px'>\n<div class = \"wiki-watermark\">Wiki: <a href = \"https://commons.wikimedia.org/wiki/File%3AHouse_Finch-27527-2.jpg\" target=\"blank\">Ken Thomas PD<\/a><\/div><strong>Species:<\/strong> House Finch<br><strong>Animal ID:<\/strong> 06200004F8<br><strong>No. visits:<\/strong> 2<br><strong>Total time:<\/strong> 0.05min <br><strong>Most recent visit:<\/strong> 2017-04-13 07:00:15<br><\/div>"
+              ],
+              null,
+              null,
+              null,
+              null,
+              {
+                "interactive": false,
+                "permanent": false,
+                "direction": "auto",
+                "opacity": 1,
+                "offset": [
+                  0,
+                  0
+                ],
+                "textsize": "10px",
+                "textOnly": false,
+                "className": "",
+                "sticky": true
+              },
+              null
+            ]
+          },
+          {
+            "method": "addLayersControl",
+            "args": [
+              [
+                "Satellite",
+                "Terrain",
+                "Open Street Map",
+                "Black and White"
+              ],
+              [
+                "Loggers",
+                "Activity"
+              ],
+              {
+                "collapsed": true,
+                "autoZIndex": true,
+                "position": "topright"
+              }
+            ]
+          }
+        ],
+        "limits": {
+          "lat": [
+            50.66778333,
+            50.672752
+          ],
+          "lng": [
+            -120.367277,
+            -120.361084
+          ]
+        }
+      },
+      "evals": [
+
+      ],
+      "jsHooks": [
+
+      ],
+      "deps": [
+        {
+          "name": "leaflet-providers",
+          "version": "1.9.0",
+          "src": {
+            "href": "leaflet-providers-1.9.0"
+          },
+          "meta": null,
+          "script": "leaflet-providers_1.9.0.js",
+          "stylesheet": null,
+          "head": null,
+          "attachment": null,
+          "package": null,
+          "all_files": false
+        },
+        {
+          "name": "leaflet-providers-plugin",
+          "version": "2.0.4.1",
+          "src": {
+            "href": "leaflet-providers-plugin-2.0.4.1"
+          },
+          "meta": null,
+          "script": "leaflet-providers-plugin.js",
+          "stylesheet": null,
+          "head": null,
+          "attachment": null,
+          "package": null,
+          "all_files": true
+        },
+        {
+          "name": "leaflet-awesomemarkers",
+          "version": "2.0.3",
+          "src": {
+            "href": "leaflet-awesomemarkers-2.0.3"
+          },
+          "meta": null,
+          "script": "leaflet.awesome-markers.min.js",
+          "stylesheet": "leaflet.awesome-markers.css",
+          "head": null,
+          "attachment": null,
+          "package": null,
+          "all_files": true
+        },
+        {
+          "name": "bootstrap",
+          "version": "3.3.7",
+          "src": {
+            "href": "bootstrap-3.3.7"
+          },
+          "meta": null,
+          "script": "bootstrap.min.js",
+          "stylesheet": "bootstrap.min.css",
+          "head": null,
+          "attachment": null,
+          "package": null,
+          "all_files": true
+        }
+      ]
+    }
+  },
+  "export": {
+
+  }
+}

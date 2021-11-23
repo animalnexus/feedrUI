@@ -1,0 +1,77 @@
+{
+  "input": {
+    "standalone-adv-animal_id": "all",
+    "standalone-adv-summary": "sum",
+    "standalone-adv-type": "cumulative",
+    "standalone-details-help_instructions": 0,
+    "standalone-map-sunrise": "FALSE",
+    "standalone-setup-anim_speed": 50
+  },
+  "output": {
+    "standalone-adv-UI_animal_id": {
+      "html": "<div class=\"form-group shiny-input-container\">\n  <label class=\"control-label\" id=\"standalone-adv-animal_id-label\" for=\"standalone-adv-animal_id\">Select Individual<\/label>\n  <div>\n    <select id=\"standalone-adv-animal_id\"><option value=\"all\" selected>All<\/option>\n<option value=\"041868D396\">041868D396 (1 mv; 4 fd)<\/option>\n<option value=\"041868D861\">041868D861 (2 mv; 3 fd)<\/option>\n<option value=\"062000043E\">062000043E (0 mv; 1 fd)<\/option>\n<option value=\"06200004F8\">06200004F8 (6 mv; 11 fd)<\/option>\n<option value=\"0620000514\">0620000514 (6 mv; 9 fd)<\/option><\/select>\n    <script type=\"application/json\" data-for=\"standalone-adv-animal_id\" data-nonempty=\"\">{\"plugins\":[\"selectize-plugin-a11y\"]}<\/script>\n  <\/div>\n<\/div>",
+      "deps": [
+        {
+          "name": "selectize",
+          "version": "0.12.4",
+          "src": {
+            "href": "shared/selectize"
+          },
+          "meta": null,
+          "script": [
+            "js/selectize.min.js",
+            "accessibility/js/selectize-plugin-a11y.min.js"
+          ],
+          "stylesheet": "css/selectize.bootstrap3.css",
+          "head": null,
+          "attachment": null,
+          "package": null,
+          "all_files": true
+        }
+      ]
+    },
+    "standalone-map-map": {
+      "message": "",
+      "call": "NULL",
+      "type": [
+        "shiny.silent.error",
+        "validation"
+      ]
+    },
+    "standalone-setup_time-plot_time": {
+      "message": "",
+      "call": "NULL",
+      "type": [
+        "shiny.silent.error",
+        "validation"
+      ]
+    },
+    "standalone-setup_time-UI_time": {
+      "message": "",
+      "call": "NULL",
+      "type": [
+        "shiny.silent.error",
+        "validation"
+      ]
+    },
+    "standalone-setup-UI_interval": {
+      "message": "",
+      "call": "NULL",
+      "type": [
+        "shiny.silent.error",
+        "validation"
+      ]
+    },
+    "standalone-setup-UI_time_range": {
+      "message": "",
+      "call": "NULL",
+      "type": [
+        "shiny.silent.error",
+        "validation"
+      ]
+    }
+  },
+  "export": {
+
+  }
+}

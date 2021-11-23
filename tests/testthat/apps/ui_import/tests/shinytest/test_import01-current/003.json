@@ -1,0 +1,244 @@
+{
+  "input": {
+    "standalone-dst": "FALSE",
+    "standalone-file1": {
+      "name": [
+        "GR10DATA_2016_01_16.TXT"
+      ],
+      "size": [
+        36926
+      ],
+      "type": [
+        "text/plain"
+      ],
+      "datapath": [
+        "0.TXT"
+      ]
+    },
+    "standalone-format": "all",
+    "standalone-get_data": 0,
+    "standalone-help_file": 0,
+    "standalone-help_options": 0,
+    "standalone-preview_cell_clicked": {
+
+    },
+    "standalone-preview_cells_selected": [
+
+    ],
+    "standalone-preview_columns_selected": null,
+    "standalone-preview_rows_all": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "standalone-preview_rows_current": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "standalone-preview_rows_selected": null,
+    "standalone-preview_search": "",
+    "standalone-preview_state": {
+      "time": 1637622058422,
+      "start": 0,
+      "length": 10,
+      "order": [
+
+      ],
+      "search": {
+        "search": "",
+        "smart": true,
+        "regex": false,
+        "caseInsensitive": true
+      },
+      "columns": [
+        {
+          "visible": true,
+          "search": {
+            "search": "",
+            "smart": true,
+            "regex": false,
+            "caseInsensitive": true
+          }
+        },
+        {
+          "visible": true,
+          "search": {
+            "search": "",
+            "smart": true,
+            "regex": false,
+            "caseInsensitive": true
+          }
+        },
+        {
+          "visible": true,
+          "search": {
+            "search": "",
+            "smart": true,
+            "regex": false,
+            "caseInsensitive": true
+          }
+        },
+        {
+          "visible": true,
+          "search": {
+            "search": "",
+            "smart": true,
+            "regex": false,
+            "caseInsensitive": true
+          }
+        },
+        {
+          "visible": true,
+          "search": {
+            "search": "",
+            "smart": true,
+            "regex": false,
+            "caseInsensitive": true
+          }
+        },
+        {
+          "visible": true,
+          "search": {
+            "search": "",
+            "smart": true,
+            "regex": false,
+            "caseInsensitive": true
+          }
+        },
+        {
+          "visible": true,
+          "search": {
+            "search": "",
+            "smart": true,
+            "regex": false,
+            "caseInsensitive": true
+          }
+        },
+        {
+          "visible": true,
+          "search": {
+            "search": "",
+            "smart": true,
+            "regex": false,
+            "caseInsensitive": true
+          }
+        },
+        {
+          "visible": true,
+          "search": {
+            "search": "",
+            "smart": true,
+            "regex": false,
+            "caseInsensitive": true
+          }
+        },
+        {
+          "visible": true,
+          "search": {
+            "search": "",
+            "smart": true,
+            "regex": false,
+            "caseInsensitive": true
+          }
+        },
+        {
+          "visible": true,
+          "search": {
+            "search": "",
+            "smart": true,
+            "regex": false,
+            "caseInsensitive": true
+          }
+        }
+      ]
+    },
+    "standalone-sep": ",",
+    "standalone-skip": 0,
+    "standalone-time": "ymd HMS",
+    "standalone-tz": "America/Winnipeg"
+  },
+  "output": {
+    "standalone-preview": [
+      "Error importing data, try a different format or settings.",
+      "NULL",
+      "c(\"shiny.silent.error\", \"validation\")"
+    ],
+    "standalone-preview_file": "GR10DATA\r\n06200004BF 01/11/16 10:48:49\r\n062000038F 01/11/16 10:48:50\r\n06200004E4 01/11/16 10:48:55\r\n06200004BF 01/11/16 10:50:02\r\n06200004E4 01/11/16 10:51:07\r\n06200004BE 01/11/16 10:51:51\r\n06200004BF 01/11/16 10:51:56\r\n06200004BE 01/11/16 10:52:11\r\n062000038F 01/11/16 10:52:59",
+    "standalone-UI_details": {
+      "message": "",
+      "call": "NULL",
+      "type": [
+        "shiny.silent.error",
+        "validation"
+      ]
+    },
+    "standalone-UI_id_pattern": {
+      "message": "",
+      "call": "NULL",
+      "type": [
+        "shiny.silent.error",
+        "validation"
+      ]
+    },
+    "standalone-UI_sep": {
+      "html": "<div id=\"standalone-sep\" class=\"form-group shiny-input-radiogroup shiny-input-container\" role=\"radiogroup\" aria-labelledby=\"standalone-sep-label\">\n  <label class=\"control-label\" id=\"standalone-sep-label\" for=\"standalone-sep\">Separator<\/label>\n  <div class=\"shiny-options-group\">\n    <div class=\"radio\">\n      <label>\n        <input type=\"radio\" name=\"standalone-sep\" value=\",\" checked=\"checked\"/>\n        <span>Comma<\/span>\n      <\/label>\n    <\/div>\n    <div class=\"radio\">\n      <label>\n        <input type=\"radio\" name=\"standalone-sep\" value=\";\"/>\n        <span>Semicolon<\/span>\n      <\/label>\n    <\/div>\n    <div class=\"radio\">\n      <label>\n        <input type=\"radio\" name=\"standalone-sep\" value=\"\t\"/>\n        <span>Tab<\/span>\n      <\/label>\n    <\/div>\n  <\/div>\n<\/div>",
+      "deps": [
+
+      ]
+    },
+    "standalone-UI_skip": {
+      "html": "<div class=\"form-group shiny-input-container\" style=\"width:100px;\">\n  <label class=\"control-label\" id=\"standalone-skip-label\" for=\"standalone-skip\">Skip<\/label>\n  <input id=\"standalone-skip\" type=\"number\" class=\"form-control\" value=\"0\" min=\"0\" max=\"39\"/>\n<\/div>",
+      "deps": [
+
+      ]
+    },
+    "standalone-UI_time": {
+      "html": "<div class=\"form-group shiny-input-container\" style=\"width:150px;\">\n  <label class=\"control-label\" id=\"standalone-time-label\" for=\"standalone-time\">Date/Time format<\/label>\n  <div>\n    <select id=\"standalone-time\"><option value=\"ymd HMS\" selected>Year Month Day<\/option>\n<option value=\"mdy HMS\">Month Day Year<\/option>\n<option value=\"dmy HMS\">Day Month Year<\/option><\/select>\n    <script type=\"application/json\" data-for=\"standalone-time\" data-nonempty=\"\">{\"plugins\":[\"selectize-plugin-a11y\"]}<\/script>\n  <\/div>\n<\/div>",
+      "deps": [
+        {
+          "name": "selectize",
+          "version": "0.12.4",
+          "src": {
+            "href": "shared/selectize"
+          },
+          "meta": null,
+          "script": [
+            "js/selectize.min.js",
+            "accessibility/js/selectize-plugin-a11y.min.js"
+          ],
+          "stylesheet": "css/selectize.bootstrap3.css",
+          "head": null,
+          "attachment": null,
+          "package": null,
+          "all_files": true
+        }
+      ]
+    },
+    "standalone-validations": {
+      "message": "",
+      "call": "NULL",
+      "type": [
+        "shiny.silent.error",
+        "validation"
+      ]
+    }
+  },
+  "export": {
+
+  }
+}

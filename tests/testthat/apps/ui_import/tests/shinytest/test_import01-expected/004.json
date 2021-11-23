@@ -1,0 +1,316 @@
+{
+  "input": {
+    "standalone-details": "1",
+    "standalone-dst": "FALSE",
+    "standalone-file1": {
+      "name": [
+        "GR10DATA_2016_01_16.TXT"
+      ],
+      "size": [
+        36926
+      ],
+      "type": [
+        "text/plain"
+      ],
+      "datapath": [
+        "0.TXT"
+      ]
+    },
+    "standalone-format": "logger",
+    "standalone-get_data": 0,
+    "standalone-help_file": 0,
+    "standalone-help_options": 0,
+    "standalone-id_pattern": "NA",
+    "standalone-preview_cell_clicked": {
+
+    },
+    "standalone-preview_cells_selected": [
+
+    ],
+    "standalone-preview_columns_selected": null,
+    "standalone-preview_rows_all": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "standalone-preview_rows_current": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "standalone-preview_rows_selected": null,
+    "standalone-preview_search": "",
+    "standalone-preview_state": {
+      "time": 1637621868904,
+      "start": 0,
+      "length": 10,
+      "order": [
+
+      ],
+      "search": {
+        "search": "",
+        "smart": true,
+        "regex": false,
+        "caseInsensitive": true
+      },
+      "columns": [
+        {
+          "visible": true,
+          "search": {
+            "search": "",
+            "smart": true,
+            "regex": false,
+            "caseInsensitive": true
+          }
+        },
+        {
+          "visible": true,
+          "search": {
+            "search": "",
+            "smart": true,
+            "regex": false,
+            "caseInsensitive": true
+          }
+        },
+        {
+          "visible": true,
+          "search": {
+            "search": "",
+            "smart": true,
+            "regex": false,
+            "caseInsensitive": true
+          }
+        },
+        {
+          "visible": true,
+          "search": {
+            "search": "",
+            "smart": true,
+            "regex": false,
+            "caseInsensitive": true
+          }
+        }
+      ]
+    },
+    "standalone-sep": ",",
+    "standalone-skip": 0,
+    "standalone-time": "mdy HMS",
+    "standalone-tz": "America/Winnipeg"
+  },
+  "output": {
+    "standalone-preview": {
+      "x": {
+        "filter": "none",
+        "vertical": false,
+        "data": [
+          [
+            "06200004BF",
+            "062000038F",
+            "06200004E4",
+            "06200004BF",
+            "06200004E4",
+            "06200004BE",
+            "06200004BF",
+            "06200004BE",
+            "062000038F",
+            "06200004BE"
+          ],
+          [
+            "2016-01-11",
+            "2016-01-11",
+            "2016-01-11",
+            "2016-01-11",
+            "2016-01-11",
+            "2016-01-11",
+            "2016-01-11",
+            "2016-01-11",
+            "2016-01-11",
+            "2016-01-11"
+          ],
+          [
+            "2016-01-11 10:48:49",
+            "2016-01-11 10:48:50",
+            "2016-01-11 10:48:55",
+            "2016-01-11 10:50:02",
+            "2016-01-11 10:51:07",
+            "2016-01-11 10:51:51",
+            "2016-01-11 10:51:56",
+            "2016-01-11 10:52:11",
+            "2016-01-11 10:52:59",
+            "2016-01-11 10:53:02"
+          ],
+          [
+            "GR10DATA",
+            "GR10DATA",
+            "GR10DATA",
+            "GR10DATA",
+            "GR10DATA",
+            "GR10DATA",
+            "GR10DATA",
+            "GR10DATA",
+            "GR10DATA",
+            "GR10DATA"
+          ]
+        ],
+        "container": "<table class=\"display\">\n  <thead>\n    <tr>\n      <th>animal_id<\/th>\n      <th>date<\/th>\n      <th>time<\/th>\n      <th>logger_id<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>",
+        "options": {
+          "searching": false,
+          "paging": false,
+          "info": false,
+          "order": [
+
+          ],
+          "autoWidth": false,
+          "orderClasses": false
+        },
+        "selection": {
+          "mode": "multiple",
+          "selected": null,
+          "target": "row",
+          "selectable": null
+        }
+      },
+      "evals": [
+
+      ],
+      "jsHooks": [
+
+      ],
+      "deps": [
+        {
+          "name": "jquery",
+          "version": "3.6.0",
+          "src": {
+            "href": "jquery-3.6.0"
+          },
+          "meta": null,
+          "script": "jquery-3.6.0.min.js",
+          "stylesheet": null,
+          "head": null,
+          "attachment": null,
+          "all_files": true
+        },
+        {
+          "name": "dt-core",
+          "version": "1.11.3",
+          "src": {
+            "href": "dt-core-1.11.3"
+          },
+          "meta": null,
+          "script": "js/jquery.dataTables.min.js",
+          "stylesheet": [
+            "css/jquery.dataTables.min.css",
+            "css/jquery.dataTables.extra.css"
+          ],
+          "head": null,
+          "attachment": null,
+          "package": null,
+          "all_files": false
+        },
+        {
+          "name": "crosstalk",
+          "version": "1.2.0",
+          "src": {
+            "href": "crosstalk-1.2.0"
+          },
+          "meta": null,
+          "script": "js/crosstalk.min.js",
+          "stylesheet": "css/crosstalk.min.css",
+          "head": null,
+          "attachment": null,
+          "all_files": true
+        }
+      ]
+    },
+    "standalone-preview_file": "GR10DATA\r\n06200004BF 01/11/16 10:48:49\r\n062000038F 01/11/16 10:48:50\r\n06200004E4 01/11/16 10:48:55\r\n06200004BF 01/11/16 10:50:02\r\n06200004E4 01/11/16 10:51:07\r\n06200004BE 01/11/16 10:51:51\r\n06200004BF 01/11/16 10:51:56\r\n06200004BE 01/11/16 10:52:11\r\n062000038F 01/11/16 10:52:59",
+    "standalone-UI_details": {
+      "html": "<div id=\"standalone-details\" class=\"form-group shiny-input-radiogroup shiny-input-container shiny-input-container-inline\" role=\"radiogroup\" aria-labelledby=\"standalone-details-label\">\n  <label class=\"control-label\" id=\"standalone-details-label\" for=\"standalone-details\">Lat/Lon Information<\/label>\n  <div class=\"shiny-options-group\">\n    <label class=\"radio-inline\">\n      <input type=\"radio\" name=\"standalone-details\" value=\"1\" checked=\"checked\"/>\n      <span>None<\/span>\n    <\/label>\n    <label class=\"radio-inline\">\n      <input type=\"radio\" name=\"standalone-details\" value=\"file1\"/>\n      <span>Logger index<\/span>\n    <\/label>\n    <label class=\"radio-inline\">\n      <input type=\"radio\" name=\"standalone-details\" value=\"inline2\"/>\n      <span>Data files<\/span>\n    <\/label>\n  <\/div>\n<\/div>",
+      "deps": [
+
+      ]
+    },
+    "standalone-UI_id_pattern": {
+      "html": "<div class=\"form-group shiny-input-container\" style=\"width:150px;\">\n  <label class=\"control-label\" id=\"standalone-id_pattern-label\" for=\"standalone-id_pattern\">Logger id pattern<\/label>\n  <div>\n    <select id=\"standalone-id_pattern\"><option value=\"NA\">As is<\/option>\n<option value=\"[GPR]{2,3}[0-9]{1,2}\">TRU loggers<\/option><\/select>\n    <script type=\"application/json\" data-for=\"standalone-id_pattern\" data-nonempty=\"\">{\"plugins\":[\"selectize-plugin-a11y\"]}<\/script>\n  <\/div>\n<\/div>",
+      "deps": [
+        {
+          "name": "selectize",
+          "version": "0.12.4",
+          "src": {
+            "href": "shared/selectize"
+          },
+          "meta": null,
+          "script": [
+            "js/selectize.min.js",
+            "accessibility/js/selectize-plugin-a11y.min.js"
+          ],
+          "stylesheet": "css/selectize.bootstrap3.css",
+          "head": null,
+          "attachment": null,
+          "package": null,
+          "all_files": true
+        }
+      ]
+    },
+    "standalone-UI_sep": {
+      "message": "",
+      "call": "NULL",
+      "type": [
+        "shiny.silent.error",
+        "validation"
+      ]
+    },
+    "standalone-UI_skip": {
+      "html": "<div class=\"form-group shiny-input-container\" style=\"width:100px;\">\n  <label class=\"control-label\" id=\"standalone-skip-label\" for=\"standalone-skip\">Skip<\/label>\n  <input id=\"standalone-skip\" type=\"number\" class=\"form-control\" value=\"0\" min=\"0\" max=\"39\"/>\n<\/div>",
+      "deps": [
+
+      ]
+    },
+    "standalone-UI_time": {
+      "html": "<div class=\"form-group shiny-input-container\" style=\"width:150px;\">\n  <label class=\"control-label\" id=\"standalone-time-label\" for=\"standalone-time\">Date/Time format<\/label>\n  <div>\n    <select id=\"standalone-time\"><option value=\"ymd HMS\">Year Month Day<\/option>\n<option value=\"mdy HMS\" selected>Month Day Year<\/option>\n<option value=\"dmy HMS\">Day Month Year<\/option><\/select>\n    <script type=\"application/json\" data-for=\"standalone-time\" data-nonempty=\"\">{\"plugins\":[\"selectize-plugin-a11y\"]}<\/script>\n  <\/div>\n<\/div>",
+      "deps": [
+        {
+          "name": "selectize",
+          "version": "0.12.4",
+          "src": {
+            "href": "shared/selectize"
+          },
+          "meta": null,
+          "script": [
+            "js/selectize.min.js",
+            "accessibility/js/selectize-plugin-a11y.min.js"
+          ],
+          "stylesheet": "css/selectize.bootstrap3.css",
+          "head": null,
+          "attachment": null,
+          "package": null,
+          "all_files": true
+        }
+      ]
+    },
+    "standalone-validations": {
+      "message": "",
+      "call": "NULL",
+      "type": [
+        "shiny.silent.error",
+        "validation"
+      ]
+    }
+  },
+  "export": {
+
+  }
+}

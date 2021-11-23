@@ -39,3 +39,4 @@ Imports:
     tidyr (>= 1.1.4),
     tidyselect (>= 1.1.1),
     lazyeval (>= 0.2.2)
+Remotes: animalnexus/feedr

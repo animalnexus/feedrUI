@@ -2,7 +2,7 @@ Package: feedrUI
 Type: Package
 Title: Shiny UI for feedr
 Version: 0.1.0
-Authors@R: person("LaZerte", "Stefanie E", email = "steffi@steffi.ca", role = c("aut","cre"))
+Authors@R: person("LaZerte", "Steffi", email = "steffi@steffi.ca", role = c("aut","cre"))
 URL: https://github.com/animalnexus/feedrUI
 Description: Shiny UI helper functions for working with the feedr package. 
 License: GPL-3

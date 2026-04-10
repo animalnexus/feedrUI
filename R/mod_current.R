@@ -96,10 +96,9 @@ mod_map_current <- function(input, output, session) {
   circle <- function(point, data, radius = 0.5){
     n <- seq(0, by = 360/nrow(data), length.out = nrow(data))
     temp <- data.frame(do.call("rbind", lapply(n, function(x) {
-      maptools::gcDestination(lon = point$lon,
-                              lat = point$lat,
-                              bearing = x,
-                              dist = radius, dist.units = "km", model = "WGS84")
+      geosphere::destPoint(p = c(point$lon, point$lat),
+                              b = x,
+                              d = radius * 1000)
     })), row.names = NULL)
     names(temp) <- c("lon", "lat")
     circle <- cbind(data, temp)

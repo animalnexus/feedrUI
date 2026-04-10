@@ -31,7 +31,6 @@ Imports:
     RCurl (>= 1.98.1.5),
     curl (>= 4.3.2),
     htmltools (>= 0.5.2),
-    maptools (>= 1.1.2),
     purrr (>= 0.3.4),
     scales (>= 1.1.1),
     stringr (>= 1.4.0),

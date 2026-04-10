@@ -12,3 +12,14 @@ User-friendly Shiny user interfaces for working with the feedr package.
 \references{
 animalnexus <http://animalnexus.ca>.
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/animalnexus/feedrUI}
+}
+
+}
+\author{
+\strong{Maintainer}: LaZerte Steffi \email{sel@steffilazerte.ca}
+
+}

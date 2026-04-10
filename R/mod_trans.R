@@ -241,7 +241,7 @@ mod_trans <- function(input, output, session, r, settings, verbose = FALSE) {
     validate(need(nrow(x) > 0, msg_error))
 
     x <- dplyr::mutate(x,
-                       dplyr::across(tidyselect:::where(lubridate::is.POSIXct),
+                       dplyr::across(tidyselect::where(lubridate::is.POSIXct),
                                      as.character))
     DT::datatable(x,
                   filter = "top",
